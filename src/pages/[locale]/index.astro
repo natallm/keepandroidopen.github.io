@@ -18,6 +18,7 @@ import editorialQuotes from '../../data/quotes/editorials.yaml';
 import orgQuotes from '../../data/quotes/organizations.yaml';
 import creatorQuotes from '../../data/quotes/creators.yaml';
 import communityQuotes from '../../data/quotes/community.yaml';
+import changeOrgQuotes from '../../data/quotes/changeorg.yaml';
 
 export function getStaticPaths() {
   // Generate a landing page for every locale (including English at /en/)
@@ -45,6 +46,14 @@ const editorialItems = shuffle(editorialQuotes);
 const orgItems = shuffle(orgQuotes);
 const creatorItems = shuffle(creatorQuotes);
 const communityItems = shuffle(communityQuotes);
+
+let filteredPetitionQuotes = (changeOrgQuotes as any[]).filter(q => q.lang === locale && !q.flag);
+// Fallback to English if not enough in current locale
+if (filteredPetitionQuotes.length < 10 && locale !== 'en') {
+  filteredPetitionQuotes = (changeOrgQuotes as any[]).filter(q => q.lang === 'en' && !q.flag);
+}
+const petitionItems = shuffle(filteredPetitionQuotes).slice(0, 100);
+
 const shuffledSigs = shuffle(signatures as any[]);
 const sigCountryCount = new Set(signatures.map((s: any) => s.region).filter(Boolean)).size;
 
@@ -120,7 +129,7 @@ const ctaPath = `/${locale}/cta/`;
 
     <!-- The "solution" that isn't -->
     <section id="advanced-flow">
-      <div class="callout-warning">
+      <div class="callout-warning callout-trapdoor">
         <h3><Fragment set:html={t.flow_heading} /></h3>
         <p><Fragment set:html={t.flow_intro} /></p>
         <ol class="scare-steps">
@@ -151,11 +160,11 @@ const ctaPath = `/${locale}/cta/`;
     <!-- Objections addressed -->
     <section id="objections" class="objections-section">
       <h2>{t.objections_heading}</h2>
-      <details open><summary><h4><Fragment set:html={t.obj_security_q} /></h4></summary><p><Fragment set:html={t.obj_security_a} /></p></details>
-      <details open><summary><h4><Fragment set:html={t.obj_sideloading_q} /></h4></summary><p><Fragment set:html={t.obj_sideloading_a} /></p></details>
-      <details open><summary><h4><Fragment set:html={t.obj_hide_q} /></h4></summary><p><Fragment set:html={t.obj_hide_a} /></p></details>
-      <details open><summary><h4><Fragment set:html={t.obj_apple_q} /></h4></summary><p><Fragment set:html={t.obj_apple_a} /></p></details>
-      <details open><summary><h4><Fragment set:html={t.obj_cost_q} /></h4></summary><p><Fragment set:html={t.obj_cost_a} /></p></details>
+      <details><summary><h4><Fragment set:html={t.obj_security_q} /></h4></summary><p><Fragment set:html={t.obj_security_a} /></p></details>
+      <details><summary><h4><Fragment set:html={t.obj_sideloading_q} /></h4></summary><p><Fragment set:html={t.obj_sideloading_a} /></p></details>
+      <details><summary><h4><Fragment set:html={t.obj_hide_q} /></h4></summary><p><Fragment set:html={t.obj_hide_a} /></p></details>
+      <details><summary><h4><Fragment set:html={t.obj_apple_q} /></h4></summary><p><Fragment set:html={t.obj_apple_a} /></p></details>
+      <details><summary><h4><Fragment set:html={t.obj_cost_q} /></h4></summary><p><Fragment set:html={t.obj_cost_a} /></p></details>
     </section>
 
     <!-- What you can do -->
@@ -256,6 +265,21 @@ const ctaPath = `/${locale}/cta/`;
           </blockquote>
         ))}
       </QuoteTicker>
+
+      {petitionItems.length > 0 && (
+        <>
+          <h3 class="voices-category">{t.voices_petition}</h3>
+          <QuoteTicker direction="right" variant="petition" duration={240}>
+            {petitionItems.map((item: any) => (
+              <blockquote class="ticker-card tc-petition">
+                <p>"{item.content}"</p>
+                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">change.org &#8599;</a></cite>
+              </blockquote>
+            ))}
+          </QuoteTicker>
+        </>
+      )}
+
       <p style="text-align:center; margin-top: 2rem;">
         <a href={ctaPath} class="more-link">{t.voices_more} &rarr;</a>
       </p>

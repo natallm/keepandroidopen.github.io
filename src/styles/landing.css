@@ -25,32 +25,28 @@
       align-items: center;
       gap: 0.4rem;
       padding: 0.4rem 0.75rem;
-      border: 1px solid var(--pico-muted-border-color);
+      border: 1px solid var(--pico-muted-border-color) !important;
       border-radius: 0.5rem;
-      background-color: transparent;
-      color: var(--pico-color);
+      background-color: transparent !important;
+      color: inherit !important;
       font-size: 0.85rem;
       font-weight: 600;
       cursor: pointer;
       transition: border-color 0.2s, background-color 0.2s;
       line-height: 1.3;
       -webkit-appearance: none;
-      /* Override Pico CSS button defaults */
-      --pico-background-color: transparent;
-      --pico-border-color: var(--pico-muted-border-color);
-      --pico-color: inherit;
     }
 
     .lang-picker-btn:hover {
-      border-color: currentColor;
-      background-color: rgba(128, 128, 128, 0.06);
-      /* Override Pico hover states */
-      --pico-background-color: rgba(128, 128, 128, 0.06);
+      border-color: currentColor !important;
+      background-color: rgba(128, 128, 128, 0.06) !important;
+      color: inherit !important;
     }
 
     .lang-picker-btn:focus {
-      --pico-background-color: rgba(128, 128, 128, 0.06);
-      box-shadow: none;
+      background-color: rgba(128, 128, 128, 0.06) !important;
+      color: inherit !important;
+      box-shadow: none !important;
     }
 
     .lang-picker-globe {
@@ -145,6 +141,7 @@
 
     .lang-picker-item.lang-current:hover {
       background: rgba(211, 47, 47, 0.1);
+      color: #b71c1c;
     }
 
     [data-theme="dark"] .lang-picker-item.lang-current {
@@ -154,6 +151,7 @@
 
     [data-theme="dark"] .lang-picker-item.lang-current:hover {
       background: rgba(239, 83, 80, 0.15);
+      color: #ef5350;
     }
 
     .lang-picker-check {
@@ -390,6 +388,59 @@
       background: rgba(123, 31, 162, 0.1);
     }
 
+    /* ===== TRAPDOOR CALLOUT (landing page escape-hatch section) ===== */
+    .callout-trapdoor {
+      border: 3px solid #c62828;
+      border-inline-start: 6px solid #c62828;
+      border-radius: 1rem;
+      background: #fdf2f2;
+      padding: 2rem 2rem 1.5rem;
+      margin: 1rem 0 2rem;
+      box-shadow: 0 2px 16px rgba(198, 40, 40, 0.1);
+    }
+
+    .callout-trapdoor h3 {
+      color: #b71c1c;
+      font-size: 1.3rem;
+      letter-spacing: 0.01em;
+    }
+
+    [data-theme="dark"] .callout-trapdoor {
+      border-color: #d32f2f;
+      background: linear-gradient(160deg, #0d0000 0%, #1a0505 40%, #120202 100%);
+      color: #e8d0d0;
+      box-shadow:
+        0 0 40px rgba(211, 47, 47, 0.12),
+        0 4px 24px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    [data-theme="dark"] .callout-trapdoor h3 {
+      color: #ff5252;
+      text-shadow: 0 0 25px rgba(255, 50, 50, 0.3);
+    }
+
+    [data-theme="dark"] .callout-trapdoor p {
+      color: #d4b8b8;
+    }
+
+    [data-theme="dark"] .callout-trapdoor em,
+    [data-theme="dark"] .callout-trapdoor i {
+      color: #ffab91;
+    }
+
+    [data-theme="dark"] .callout-trapdoor strong {
+      color: #ff8a80;
+    }
+
+    [data-theme="dark"] .callout-trapdoor a {
+      color: #ff8a80;
+    }
+
+    [data-theme="dark"] .callout-trapdoor a:hover {
+      color: #ffab91;
+    }
+
     /* ===== SCARE STEPS ===== */
     .scare-steps {
       counter-reset: scare;
@@ -435,6 +486,21 @@
 
     [data-theme="dark"] .step-highlight {
       background: rgba(211, 47, 47, 0.15);
+    }
+
+    /* Scare steps inside the dark trapdoor callout (dark mode only) */
+    [data-theme="dark"] .callout-trapdoor .scare-steps li {
+      color: #e0cccc;
+    }
+
+    [data-theme="dark"] .callout-trapdoor .scare-steps li::before {
+      background: rgba(255, 82, 82, 0.25);
+      color: #ff8a80;
+    }
+
+    [data-theme="dark"] .callout-trapdoor .step-highlight {
+      background: rgba(255, 82, 82, 0.15);
+      color: #ffab91;
     }
 
     /* ===== PRECEDENT SECTION ===== */
@@ -660,7 +726,13 @@
     /* Variant overrides (only for font-style differences) */
     .tc-video p { font-style: italic; }
     .tc-community p { font-style: normal; }
+    .tc-petition p { font-style: normal; }
     .tc-featured p { font-size: 0.92rem; }
+
+    .tc-petition {
+      --tc-h: 15;
+      --tc-s: 75%;
+    }
 
     /* Mobile: narrower cards */
     @media (max-width: 600px) {

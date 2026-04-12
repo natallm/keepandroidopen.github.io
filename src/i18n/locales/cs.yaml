@@ -89,8 +89,8 @@ open_letter_cta: "Přečtěte si náš otevřený dopis proti programu ověřov�
 # Advanced flow
 # flow_heading: "Google's \"escape hatch\" is a trap door"
 # flow_intro: "Google says \"power users\" can <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"still install\"</a> unverified apps. Here's what that <i>actually</i> looks like:"
-# flow_step1: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
-# flow_step2: "Dig into Developer Options, find a buried toggle"
+# flow_step1: "Delve into System Settings, find Developer Options"
+# flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
 # flow_step3: "Dismiss a scare screen about coercion"
 # flow_step4: "Enter your PIN"
 # flow_step5: "Restart the device"

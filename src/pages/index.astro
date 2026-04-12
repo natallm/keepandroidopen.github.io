@@ -21,6 +21,7 @@ import editorialQuotes from '../data/quotes/editorials.yaml';
 import orgQuotes from '../data/quotes/organizations.yaml';
 import creatorQuotes from '../data/quotes/creators.yaml';
 import communityQuotes from '../data/quotes/community.yaml';
+import changeOrgQuotes from '../data/quotes/changeorg.yaml';
 
 const locale = 'en';
 const t = getLandingStrings(locale);
@@ -42,6 +43,10 @@ const editorialItems = shuffle(editorialQuotes);
 const orgItems = shuffle(orgQuotes);
 const creatorItems = shuffle(creatorQuotes);
 const communityItems = shuffle(communityQuotes);
+
+const filteredPetitionQuotes = (changeOrgQuotes as any[]).filter(q => q.lang === locale && !q.flag);
+const petitionItems = shuffle(filteredPetitionQuotes).slice(0, 100);
+
 const shuffledSigs = shuffle(signatures as any[]);
 const sigCountryCount = new Set(signatures.map((s: any) => s.region).filter(Boolean)).size;
 
@@ -163,7 +168,7 @@ const daysLeft = Math.max(0, Math.ceil((deadline.getTime() - now.getTime()) / (1
 
     <!-- The "solution" that isn't -->
     <section id="advanced-flow">
-      <div class="callout-warning">
+      <div class="callout-warning callout-trapdoor">
         <h3><Fragment set:html={t.flow_heading} /></h3>
         <p><Fragment set:html={t.flow_intro} /></p>
         <ol class="scare-steps">
@@ -331,6 +336,20 @@ const daysLeft = Math.max(0, Math.ceil((deadline.getTime() - now.getTime()) / (1
           </blockquote>
         ))}
       </QuoteTicker>
+
+      {petitionItems.length > 0 && (
+        <>
+          <h3 class="voices-category">{t.voices_petition}</h3>
+          <QuoteTicker direction="right" variant="petition" duration={240}>
+            {petitionItems.map((item: any) => (
+              <blockquote class="ticker-card tc-petition">
+                <p>"{item.content}"</p>
+                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">change.org &#8599;</a></cite>
+              </blockquote>
+            ))}
+          </QuoteTicker>
+        </>
+      )}
 
       <p style="text-align:center; margin-top: 2rem;">
         <a href="/cta/" class="more-link">{t.voices_more} &rarr;</a>
