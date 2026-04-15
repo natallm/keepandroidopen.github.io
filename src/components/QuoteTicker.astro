@@ -3,7 +3,7 @@
  * Infinite horizontally scrolling ticker using CSS animation.
  * Two copies of the content sit side-by-side and translate continuously.
  * Hover pause is pure CSS (:hover) to avoid JS-induced animation jumps.
- * JS handles: touch pause with 10s resume, and per-card colors.
+ * JS handles: touch pause, per-card colors, and reshuffling on each cycle.
  */
 interface Props {
   direction?: 'left' | 'right';
@@ -38,8 +38,8 @@ const actualDuration = Math.round(jitter);
  * SPDX-License-Identifier: Apache-2.0
  */
 (function() {
-  if (window.__tickerV4) return;
-  window.__tickerV4 = true;
+  if (window.__tickerV5) return;
+  window.__tickerV5 = true;
 
   var TOUCH_PAUSE_MS = 10000;
   var PALETTE = [
@@ -50,6 +50,16 @@ const actualDuration = Math.round(jitter);
   function ready(fn) {
     if (document.readyState === 'complete') fn();
     else window.addEventListener('load', fn);
+  }
+
+  // Fisher-Yates shuffle for DOM children
+  function shuffleChildren(container) {
+    var children = Array.from(container.children);
+    for (var i = children.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      container.appendChild(children[j]);
+      children.splice(j, 1, children[i]);
+    }
   }
 
   ready(function() {
@@ -67,12 +77,13 @@ const actualDuration = Math.round(jitter);
       card.style.setProperty('--tc-s', p.s + '%');
     });
 
-    // Touch-only pause (mouse hover is handled by pure CSS)
     document.querySelectorAll('.ticker').forEach(function(el) {
       var track = el.querySelector('.ticker-track');
       if (!track) return;
+      var halves = track.querySelectorAll('.ticker-half');
       var touchTimer = null;
 
+      // Touch-only pause (mouse hover is handled by pure CSS)
       el.addEventListener('touchstart', function() {
         track.style.animationPlayState = 'paused';
         if (touchTimer) clearTimeout(touchTimer);
@@ -80,6 +91,15 @@ const actualDuration = Math.round(jitter);
           track.style.animationPlayState = '';
         }, TOUCH_PAUSE_MS);
       }, {passive: true});
+
+      // Reshuffle both halves when the animation completes one full cycle.
+      // The shuffle happens at the exact loop point where the two halves
+      // are visually identical, so the reorder is invisible to the user.
+      track.addEventListener('animationiteration', function() {
+        for (var i = 0; i < halves.length; i++) {
+          shuffleChildren(halves[i]);
+        }
+      });
     });
   });
 })();
