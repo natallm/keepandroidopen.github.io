@@ -66,10 +66,10 @@ open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh Nhà
 # Meta
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+ hero_lede: "Điện thoại của bạn không phải của bạn nữa."
+ hero_countdown_label: "ngày"
+ hero_sub: "Bắt đầu tháng 9 năm 2026, một cập nhật âm thầm, được Google triển khai mà không có sự đồng ý của người dùng, sẽ **chặn những ứng dụng Android** mà nhà phát triển chưa đang ký với Google, chưa ký hợp đồng, chưa thanh toán và chưa cung cấp giấy tờ tùy thân do chính phủ cấp."
+ hero_kicker: "Mỗi ứng dụng và mỗi thiết bị, trên toàn thế giới, với không có tùy chọn từ chối."
 
 # What Google is doing
 # what_heading: "What Google is doing"
