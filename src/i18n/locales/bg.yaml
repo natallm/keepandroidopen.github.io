@@ -28,34 +28,6 @@
 #   Fluency, natural phrasing, and cultural accuracy matter.
 # ==========================================================================
 
-# Active translations for this locale:
-
-
-# [en] title: "Keep Android Open"
-title: "Keep Android Open"
-# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: >-
-  Движение в подкрепа на запазването на Android като безплатна и отворена платформа за изграждане на приложения от всички.
-# [en] contact_header: "Contact"
-contact_header: "Контакти"
-# [en] contact_email: "Email"
-contact_email: "Имейл"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Проблеми"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Сигнал за проблеми в страницата"
-# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-site_disclaimer: >-
-  **Отказ от правна отговорност:** Тази страница е дело на общи усилия с нетърговски цели на общността. Поддържа се единствено с информационни и образователни цели.
-# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-site_privacy: >-
-  **Поверителност:** Тази страница не използва бисквитки и не извършва проследяване или регистриране на действията на потребителите.
-# [en] site_copyright: "**Copyright:** None. This work is marked"
-site_copyright: "**Авторско право:** Неограничено. Използваният лиценз е"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"
-
-#
 # ============================================================================
 # TRANSLATABLE KEYS
 # Below are ALL keys from en.yaml, shown as comments.
@@ -64,119 +36,232 @@ open_letter_cta: "Прочетете нашето отворено писмо с
 # translated as comments; they will automatically fall back to English.
 # ============================================================================
 
-# Meta
+# Active translations for this locale:
+
+# [en] title: "Keep Android Open"
+title: "Keep Android Open"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
+description: "Предстои телефонът ви да спре да бъде ваш. През септември 2026 г. Google възнамерява да блокира всяко приложение за Android на разработчици, които не са регистрирани."
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+# [en] hero_lede: "Your phone is about to stop being yours."
+hero_lede: "Предстои телефонът ви да спре да бъде ваш."
+# [en] hero_countdown_label: "days until lockdown"
+hero_countdown_label: "дни до заключването"
+# [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
+hero_sub: "През септември 2026 г. Google, без да иска съгласието на потребителите, публикува тихомълком актуализация, която ще **блокира всяко приложение за Android** на разработчици, които не са регистрирани в Google и не са подписали съответните договори, не са платили съответните суми и не са предоставили личен документ."
+# [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_kicker: "Всяко приложение и всяко устройство по целия свят и без опция за отказ."
 
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+# [en] what_heading: "What Google is doing"
+what_heading: "Какво прави Google"
+# [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
+what_intro: "През август 2025 г. Google [обяви](https://developer.android.com/developer-verification) ново изискване: от септември 2026 г. **всеки разработчик на приложения за Android трябва да бъде централно регистриран в Google**, за да може софтуерът му да се инсталира на което и да е устройство. Не става въпрос само за приложения от Google Play Магазин, а за всички приложения. В това число влизат приложения, изпратени от приятели, разпространени през [F-Droid](https://f-droid.org), създадени от хоби разработчици за лична употреба. Всички независими разработчици, обществени и църковни групи и любители ще изгубят възможността да разработват и разпространяват софтуера си."
+# [en] what_registration: "Registration requires:"
+what_registration: "За регистрация е необходимо следното:"
+# [en] what_req_fee: "Paying a fee to Google"
+what_req_fee: "Да се плати такса на Google"
+# [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
+what_req_terms: "Да се приемат Общите условия на Google"
+# [en] what_req_id: "Surrendering your government-issued identification"
+what_req_id: "Да се предоставят собствени официални лични документи"
+# [en] what_req_signing: "Providing evidence of your private signing key"
+what_req_signing: "Да се предостави доказателство за вашия частен ключ за разработчик"
+# [en] what_req_appids: "Listing all current and all future application identifiers"
+what_req_appids: "Да се посочат всички текущи и бъдещи идентификатори на приложения"
+# [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_pullquote: "Ако разработчикът не се съгласи, приложенията му ще бъдат блокирани без известие на всяко устройство с Android навсякъде по света."
 
-# Who this hurts
-# impact_heading: "Who this hurts"
-# impact_you_heading: "You"
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-# impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
-# impact_dev_heading: "Independent developers"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
-# impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
-# impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
+# Кой страда от това
+# [en] impact_heading: "Who this hurts"
+impact_heading: "Кой страда от това"
+# [en] impact_you_heading: "You"
+impact_you_heading: "Вие"
+# [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
+impact_you_p1: "Когато сте си купили телефон с Android, сте очаквали да имате отворена система, в която можете да инсталирате каквото поискате. Това беше обещанието на Google."
+# [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
+impact_you_p2: >-
+  Сега Google променя сделката със задна дата и то за устройства, които вече притежавате. След минаването на актуализацията ще можете да използвате само софтуер, който е предварително одобрен от Google. На вашия телефон, който *вие притежавате* и за който *вие сте платили*.
+# [en] impact_dev_heading: "Independent developers"
+impact_dev_heading: "Независими разработчици"
+# [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
+impact_dev_p1: "Няма значение дали ще става въпрос първото приложение на тийнейджър, инструмент за запазване на поверителността на доброволец, или за поверителна вътрешна бета версия на компания. След септември 2026 г. нищо от това няма да може да се инсталира без благословията на Google."
+# [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
+impact_dev_p2: >-
+  Според [F-Droid](https://f-droid.org), където се намират хиляди безплатни приложения за Android с отворен код, това е [„екзистенциална заплаха“](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow го нарича [„Darth Android“](https://pluralistic.net/2025/09/01/fulu/).
+# [en] impact_gov_heading: "Governments & civil society"
+impact_gov_heading: "Правителствата и гражданските общества"
+# [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
+impact_gov_p1: >-
+  Google има [документирани случаи](https://www.aclu.org/news/free-speech/app-store-oligopoly), в които е изпълнявал исканията на авторитарни режими, когато става въпрос за премахването на приложения. Когато тази програма влезе в сила, софтуерът, който се използва от институциите във вашата държава, ще бъде зависим от решенията на една чуждестранна корпорация, която не подлежи на законовите изисквания на държавата ви.
+# [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
+impact_gov_p2: >-
+  Фондация „Електронна граница“ ([EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship)) нарича тази форма на ограничаване на приложенията „непрестанно разширяващ се път към цензурата в интернет“."
 
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
-# flow_step1: "Delve into System Settings, find Developer Options"
-# flow_step2: "Tap the build number **seven times** to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "**Wait 24 hours**"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
-# flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
+# [en] flow_heading: "Google's \"escape hatch\" is a trap door"
+flow_heading: "„Резервният вариант“ на Google е всъщност капан"
+# [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
+flow_intro: "Google твърди, че „power users“ (напреднали потребители) [„могат да продължат да инсталират“](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) непроверени приложения. Ето как *всъщност* изглежда това:"
+# [en] flow_step1: "Delve into System Settings, find Developer Options"
+flow_step1: "Ровите се в системните настройки, намирате опциите за разработчици"
+# [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
+flow_step2: "Докосвате номера на компилацията **седем пъти**, за да активирате режима за разработчици"
+# [en] flow_step3: "Dismiss scare screens about coercion"
+flow_step3: "Потвърждавате, че действате по собствено желание"
+# [en] flow_step4: "Enter your PIN"
+flow_step4: "Въвеждате PIN кода си"
+# [en] flow_step5: "Restart the device"
+flow_step5: "Рестартирате устройството"
+# [en] flow_step6: "**Wait 24 hours**"
+flow_step6: "**Изчаквате 24 часа**"
+# [en] flow_step7: "Come back, dismiss more scare screens"
+flow_step7: "Връщате се и минавате още няколко изскачащи прозореца"
+# [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
+flow_step8: "Избирате „Разрешаване временно“ (7 дни) или „Разрешаване за постоянно“"
+# [en] flow_step9: "Confirm, again, that you understand \"the risks\""
+flow_step9: "Отново потвърждавате, че сте наясно с „рисковете“"
+# [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
+flow_summary: "Девет стъпки и задължителен 24-часов период на изчакване. *За да инсталирате софтуер на устройство, което притежавате.*"
+# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
+flow_detail: "По-лошото: Този процес се извършва изцяло през **Google Play Services**, не през операционната система Android. Google може да го промени, да го ограничи или да го спре, когато пожелае, като за целта не е нужна актуализация на операционната система. И до днешна дата все още не присъства в beta версиите на Android, както и в каналите за разработчици или canary. Съществува само като публикация в блог и някои примерни модели."
 
 # Precedent
-# precedent_heading: "This is bigger than Android"
-# precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-# precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
-# precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
-# precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
+# [en] precedent_heading: "This is bigger than Android"
+precedent_heading: "Това е по-голямо от Android"
+# [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
+precedent_pullquote: "Ако Google има способността със задна дата да заключи милиарди устройства, които са били продадени като отворени платформи, това ще ангажира вниманието на всеки голям производител по света."
+# [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
+precedent_p1: "Така се установява нов принцип: **компанията, която е произвела устройството ви, има силата след като сте го купили да вземе решение какъв софтуер можете да използвате на него.** В света на софтуера това се нарича „rug pull“ (неочаквана тотална промяна на правилата), но поне винаги съществуваше възможността да инсталирате конкурентен софтуер. В света на хардуера това обаче ви изправя пред свършен факт, след който нямате ходове и не можете да противодействате на хрумванията на един доказан монополист, който не допуска свободен достъп и не може да бъде подведен под отговорност."
+# [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
+precedent_p2: >-
+  Отвореният характер на Android никога не е бил просто особеност. Той беше *обещанието*, което го разграничаваше от iPhone и милиони потребители избираха Android точно поради тази причина. С действията си Google сега нарушава едностранно това обещание на устройства, които вече са *в джобовете* на потребителите, защото са решили, че имат достатъчно доминираща позиция на пазара и влияние върху регулаторите, за да го направят без последствия.
+precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *„Завистта на Google към Apple заплашва да унищожи наследството на Android като отворена операционна система.“*"
 
 # Objections
-# objections_heading: "But wait, isn't this..."
-# obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
-# obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
-# obj_hide_q: "\"...only a problem if you have something to hide?\""
-# obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
-# obj_apple_q: "\"...the same thing Apple does?\""
-# obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
-# obj_cost_q: "\"...just $25 and some paperwork?\""
-# obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
+# [en] objections_heading: "But wait, isn't this..."
+objections_heading: "Добре, но това не е ли..."
+# [en] obj_security_q: "\"...just about security?\""
+obj_security_q: "„...само за нашата сигурност?“"
+# [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
+obj_security_a: >-
+  Обяснението за сигурността е само пясък в очите. Google Play Protect вече извършва сканиране за злонамерен софтуер без значение от идентичността на разработчика. Изискването на официален документ за самоличност няма да направи кода по-безопасен, но за сметка на това прави *разработчиците* по-лесни за идентифициране и контрол. Създателите на злонамерен софтуер могат да се регистрират. Инди разработчиците и дисидентите често нямат тази възможност. Фондацията „Електронна граница“ *([EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship)) има недвусмислена позиция: системата за идентификация е инструмент за цензура, а не за сигурност.
+# [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
+obj_sideloading_q: "„...същото като инсталиране на външни приложения, просто със следване на разширената процедура?“"
+# [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
+obj_sideloading_a: >-
+  Девет стъпки, 24-часов период на изчакване, ровене в настройки за разработчици и всичко това през собствена услуга, която Google може да анулира по всяко време. Това не е същото като инсталиране на външни приложения, а е **възпиращ механизъм**, който е така разработен, че да гарантира, че почти никой няма да го ползва. И понеже работи през Play Services, а не в рамките на операционната система, Google винаги може тихомълком да го ограничи или спре.
+# [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
+obj_hide_q: "„...проблем само ако имаш какво да криеш?“"
+# [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
+obj_hide_a: >-
+  Информаторите, журналистите и активистите срещу авторитарно управление ще бъдат първите жертви на тази промяна. Ще ги последват хората, които са жертви на домашно насилие. Всички тези групи имат основателни причини да разпространяват или използват софтуер, без да въвеждат данните за идентичността си в база данни на Google. Приносът от анонимни потребители към отворен код е традиция, по-стара от самия Google. Тази политика ще убие всичко това на Android.
+# [en] obj_apple_q: "\"...the same thing Apple does?\""
+obj_apple_q: "„...същото, което и Apple прави?“"
+# [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
+obj_apple_a: >-
+  Apple е затворена система от самото начало. Android беше избиран от потребителите, *защото беше различен*. „Apple прави същото“ е напълно безпредметен слаб аргумент, който само отнема вината от правилното място. А благодарение на натиска от регулаторите (Закона за дигиталните пазари на ЕС) дори Apple е принуден да работи по-отворено. За сметка на това Google се е насочил в обратната посока с опити да затвърди контрола си върху достъпа.
+# [en] obj_cost_q: "\"...just $25 and some paperwork?\""
+obj_cost_q: "„...просто 25 долара и малко документи?“"
+# [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
+obj_cost_a: >-
+  Може би не е нещо особено за разработчик в САЩ, който има кредитна карта и собствен автомобил. Съвсем различно е обаче за един студент в Африка, или за дисидент в Мианмар, или за доброволец, който се грижи за здравно приложение за общността си. Цената не се измерва само във финансова величина. Давате данните от официалния си документ за самоличност и предоставяте доказателства за частния си ключ на компания, която [редовно изпълнява](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) исканията на различни правителства за премахване на приложения и разкриване на информация за разработчиците им.
 
 # Fight back
-# act_heading: "Fight back"
-# act_everyone_heading: "Everyone"
-# act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
-# act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
-# act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-# act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-# act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
-# act_letter: "**[Read and share our open letter](/open-letter)**"
-# act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
-# act_dev_heading: "Developers"
-# act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
-# act_dev_resist: "Google's plan only works if developers comply. Don't."
-# act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
-# act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-# act_google_heading: "Google employees"
-# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
+# [en] act_heading: "Fight back"
+act_heading: "Как да се противопоставим"
+# [en] act_everyone_heading: "Everyone"
+act_everyone_heading: "За всички"
+# [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
+act_fdroid: >-
+  **[Инсталирайте F-Droid](https://f-droid.org)** на всяко устройство с Android, което притежавате. Алтернативните магазини за приложения ще оцелеят само ако има хора, които ги използват.
+# [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
+act_regulators: >-
+  **[Свържете се със своите представители в регулаторните комисии.](/cta/#consumers)** Регулаторите по света са наистина загрижени за ефекта от монопола и централизирането на властта в технологичния сектор. Те приветстват обратна връзка от хора, които са потърпевши и имат свои притеснения.
+# [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
+act_share: >-
+  **Споделяйте тази страница.** Изпращайте навсякъде връзката към [keepandroidopen.org](https://keepandroidopen.org).
+# [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
+act_astroturf: >-
+  **Борете се с опитите за манипулиране на общественото мнение.** Все по-често се срещат мнения от рода на „От гледна точка на Google...“. Не им позволявайте да изменят фокуса.
+# [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
+act_petition: >-
+  **[Подпишете петицията в change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** и станете част от другите 100 000 подписали.
+# [en] act_letter: "**[Read and share our open letter](/open-letter)**"
+act_letter: >-
+  **[Прочетете и споделяйте нашето отворено писмо](/open-letter).**
+# [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
+act_survey: >-
+  **Кажете на Google какво мислите за това**, като използвате тяхната [анкета за изискванията за проверка на разработчиците на Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(колкото и да е глас в пустинята)</small>.
+# [en] act_dev_heading: "Developers"
+act_dev_heading: "За разработчиците"
+# [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
+act_dev_intro: >-
+  **НЕ УЧАСТВАЙТЕ.** Не се присъединявайте към програмата и не се записвайте в Android Developer Console. Не приемайте техните Общи условия, от които няма да можете после да се откажете. Не потвърждавайте самоличността си. *Не играйте по свирката им.*
+# [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
+act_dev_resist: "Планът на Google ще сработи само ако разработчиците се подчинят. Не го правете."
+# [en] act_dev_talk: "Talk other developers and organizations out of signing up."
+act_dev_talk: "Опитайте се да разубедите другите разработчици и организации около себе си да не се включват в програмата."
+# [en] act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
+act_dev_warn: >-
+  Добавете [библиотеката FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) към приложенията си, за да предупредите потребителите.
+# [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
+act_dev_banner: >-
+  Имате уебсайт? [Добавете банера с обратно отброяване.](/banner)
+# [en] act_google_heading: "Google employees"
+act_google_heading: "За служители на Google"
+# [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
+act_google_text: >-
+  Ако знаете нещо, свързано с техническото осъществяване на програмата или вътрешна информация, пишете на [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) от *неслужебно* устройство и акаунт, който не е на Gmail. Поверителността на вашата информация ще бъде строго защитена.
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+# [en] voices_heading: "What they're saying"
+voices_heading: "Какво казват хората"
+# [en] voices_press: "Tech press"
+voices_press: "Технологични медии"
+# [en] voices_editorials: "Editorials & analysis"
+voices_editorials: "Коментари и анализи"
+# [en] voices_orgs: "Organizations & open letters"
+voices_orgs: "Организации и отворени писма"
+# [en] voices_creators: "YouTubers & creators"
+voices_creators: "Ютубъри и създатели на съдържание"
+# [en] voices_community: "Developers & community"
+voices_community: "Разработчици и от общността"
+# [en] voices_petition: "Voices from the petition"
+voices_petition: "Мнения от петицията"
+# [en] voices_more: "All references, editorials, press coverage, and videos"
+voices_more: "Всички препратки, коментари, статии в медиите и видеоклипове"
 
 # Signatories section
-# signatories_heading: "All those opposed…"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+# [en] signatories_heading: "All those opposed…"
+signatories_heading: "Всички, които са против…"
+signatories_count: "{count} организации от {countries} държави са подписали"
+signatories_open_letter_link: "отвореното писмо"
+# [en] signatories_more: "Read the full open letter and thank the signatories"
+signatories_more: "Тук можете да прочетете цялото отворено писмо и да благодарите на подписалите се"
 
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+# [en] cta_action_label: "Take Action"
+cta_action_label: "Активно действие"
+# [en] cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
+cta_action_desc: "Пълен списък с ресурси, контакти в регулаторните комисии, връзки за всяка държава и начините, по които да противодействате"
+# [en] cta_letter_label: "Open Letter"
+cta_letter_label: "Отворено писмо"
+# [en] cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_letter_desc: "Прочетете отвореното писмо, подписано от организациите, които са срещу програмата за потвърждаване на самоличността на разработчиците"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+# [en] closing_line1: "You bought your phone."
+closing_line1: "Вие сте купили телефона си."
+# [en] closing_line2: "You should decide what runs on it."
+closing_line2: "Трябва да можете вие да определите за какво да го използвате."
+# [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
+closing_detail: "За това не трябва да е нужен процес от 9 стъпки, 24-часов период на изчакване и разрешение от Google, което подлежи на промяна."
+# [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
+closing_cta: "Споделяйте тази страница. Не участвайте. Не им позволявайте да затворят Android."
+# [en] closing_share_heading: "Spread the word"
+closing_share_heading: "Споделете в мрежите"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -231,22 +316,51 @@ open_letter_cta: "Прочетете нашето отворено писмо с
 # social_callout_facebook_10: "From students building their first apps to volunteers creating privacy tools, Google's mandatory registration policy will freeze out innovation. Help us keep Android open! {url}"
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
+# [en] spread_label_x: "Post on X"
+spread_label_x: "Публикуване в X"
+# [en] spread_label_mastodon: "Post on Mastodon"
+spread_label_mastodon: "Публикуване в Mastodon"
+# [en] spread_label_bluesky: "Post on Bluesky"
+spread_label_bluesky: "Публикуване в Bluesky"
 # spread_label_linkedin: "LinkedIn"
 # spread_label_facebook: "Facebook"
 
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
+# [en] footer_get_involved: "Get involved"
+footer_get_involved: "Как да участвате"
+# [en] footer_take_action: "Take action & resources"
+footer_take_action: "Възможни действия и ресурси"
+# [en] footer_open_letter: "Open letter"
+footer_open_letter: "Отворено писмо"
+# [en] footer_add_banner: "Add countdown banner"
+footer_add_banner: "Добавяне на банер с обратно отброяване"
+# [en] footer_sign_petition: "Sign the petition"
+footer_sign_petition: "Подписване на петицията"
+# [en] footer_contact: "Contact"
+footer_contact: "Връзка"
+# [en] footer_report_issues: "Report site issues"
+footer_report_issues: "Сигнал за проблем с уебсайта"
+# [en] footer_translations: "Translations"
+footer_translations: "Преводи"
+# [en] footer_languages: "English (+ 30 languages)"
+footer_languages: "Английски (и още 30 други езика)"
+# [en] footer_help_translate: "Help translate"
+footer_help_translate: "Помогнете за превода"
 
 # Shared site strings (also used by CTA/footer on other pages)
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
+site_disclaimer: "**Отказ от правна отговорност:** Тази страница е дело на общи усилия с нетърговски цели на общността. Поддържа се единствено с информационни и образователни цели."
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
+site_privacy: "**Поверителност:** Тази страница не използва бисквитки и не извършва проследяване или регистриране на действията на потребителите."
+# [en] site_copyright: "**Copyright:** None. This work is marked"
+site_copyright: "**Авторско право:** Неограничено. Използваният лиценз е"
+# [en] contact_header: "Contact"
+contact_header: "Контакти"
+# [en] contact_email: "Email"
+contact_email: "Имейл"
+# [en] site_problems_header: "Problems"
+site_problems_header: "Проблеми"
+# [en] site_report_issues: "Report Site Issues"
+site_report_issues: "Сигнал за проблем в страницата"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
+open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"

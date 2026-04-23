@@ -50,6 +50,9 @@ export const languages = {
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
   "ja": { label: "日本語", path: "/ja/" },
   "ko": { label: "한국어", path: "/ko/" },
+
+  // Language isolate
+  "eu": { label: "Euskara", path: "eu" },
   
 } as const;
 
