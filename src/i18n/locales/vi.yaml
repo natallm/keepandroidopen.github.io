@@ -102,8 +102,8 @@ impact_gov_heading: "Những chính quyền & xã hội dân sự"
 # flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 # flow_step3: "Dismiss scare screens about coercion"
 # flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "**Wait 24 hours**"
+flow_step5: "Khởi động lại thiết bị"
+flow_step6: "Chờ 24 tiếng **(một ngày!)**"
 # flow_step7: "Come back, dismiss more scare screens"
 # flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 # flow_step9: "Confirm, again, that you understand \"the risks\""
@@ -151,18 +151,18 @@ act_dev_heading: "Nhà phát triển"
 
 # Voices section
 # voices_heading: "What they're saying"
-# voices_press: "Tech press"
+voices_press: "Báo chí công nghệ"
 # voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
+voices_orgs: "Tổ chức và thư ngỏ"
 # voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
+voices_community: "Nhà phát triển & cộng đồng"
 # voices_petition: "Voices from the petition"
 # voices_more: "All references, editorials, press coverage, and videos"
 
 # Signatories section
 # signatories_heading: "All those opposed…"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
+signatories_count: "{count} tổ chức ở {countries} quốc gia đã ký những"
+signatories_open_letter_link: "thư ngỏ"
 # signatories_more: "Read the full open letter and thank the signatories"
 
 # CTA banners
@@ -172,11 +172,11 @@ act_dev_heading: "Nhà phát triển"
 # cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
+closing_line1: "Bạn đã mua điện thoại."
+closing_line2: "Bạn nên được quyết định ứng dụng nào được phép chạy trong những ứng dụng trên điện thoại của bạn."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+closing_share_heading: "Hãy lan truyền thông tin, báo cho những bạn và gia đình biết!"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -231,22 +231,22 @@ act_dev_heading: "Nhà phát triển"
 # social_callout_facebook_10: "From students building their first apps to volunteers creating privacy tools, Google's mandatory registration policy will freeze out innovation. Help us keep Android open! {url}"
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
+spread_label_x: "Đăng lên X"
+spread_label_mastodon: "Đăng lên Mastodon"
+spread_label_bluesky: "Đăng lên Bluesky"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "Facebook"
 
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
+footer_get_involved: "Tham gia"
+footer_take_action: "Những hành động & tài liệu"
+footer_open_letter: "Thư ngỏ"
+footer_add_banner: "Thêm banner đếm ngược" # This might not be the best translation
+footer_sign_petition: "Sign the petition"
+footer_contact: "Liên hệ"
+footer_report_issues: "Báo cáo vấn đề trang này"
+footer_translations: "Bản dịch"
+footer_languages: "Tiếng Việt (+ 30 languages)"
+footer_help_translate: "Giúp dịch trang này"
 
 # Shared site strings (also used by CTA/footer on other pages)
