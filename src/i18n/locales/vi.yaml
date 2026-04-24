@@ -69,16 +69,16 @@ open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh Nhà
 hero_lede: "Vận động để Android vẫn là một nền tảng tự do và mở cho mọi người xây dựng ứng dụng."
 hero_countdown_label: "ngày"
 hero_sub: >-
-  "Bắt đầu tháng 9 năm 2026, một cập nhật âm thầm, được Google triển khai mà không có sự đồng ý của người dùng, sẽ **chặn những ứng dụng Android** mà nhà phát triển chưa đang ký với Google, chưa ký hợp đồng, chưa thanh toán và chưa cung cấp giấy tờ tùy thân do chính phủ cấp."
+  Bắt đầu tháng 9 năm 2026, một cập nhật âm thầm, được Google triển khai mà không có sự đồng ý của người dùng, sẽ **chặn những ứng dụng Android** mà nhà phát triển chưa đang ký với Google, chưa ký hợp đồng, chưa thanh toán và chưa cung cấp giấy tờ tùy thân do chính phủ cấp.
 hero_kicker: "Mỗi ứng dụng và mỗi thiết bị, trên toàn thế giới, với không có tùy chọn từ chối."
 
 # What Google is doing
 what_heading: "Google đang làm gì?"
-# what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
+# what_intro: "In August 2025, Google [announced] (https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_registration: "Việc phải làm trong quá trình đăng ký là:"
 what_req_fee: "Phải trả thu phí cho Google"
 # what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
+ what_req_id: "Phai cho giay to tuy than"
 # what_req_signing: "Providing evidence of your private signing key"
 # what_req_appids: "Listing all current and all future application identifiers"
 # what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
