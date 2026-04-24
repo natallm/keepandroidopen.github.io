@@ -3570,12 +3570,12 @@ countries:
       zh-TW: "哥倫比亞"
     items:
       - text:
-          en: Make a report to the [Superintendence of Industry and Commerce](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
-          es: Presentar una denuncia ante la [Superintendencia de Industria y Comercio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
-          pl: Prześlij zgłoszenie do [Nadzoru Przemysłu i Handlu](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
-          pt-BR: Faça um relato para a [Superintendência de Indústria e Comércio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
-          zh-CN: 向[工商业监管局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)报告
-          zh-TW: 向[工商業監理局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)報告
+          en: "File a formal antitrust complaint (Prácticas Comerciales Restrictivas) with the [Superintendence of Industry and Commerce (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) — requires creating an account on the SIC portal"
+          es: "Presentar una denuncia formal por prácticas comerciales restrictivas ante la [Superintendencia de Industria y Comercio (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) — requiere crear una cuenta en el portal de la SIC"
+          pl: "Złóż formalną skargę antymonopolową (Prácticas Comerciales Restrictivas) do [Nadzoru Przemysłu i Handlu (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) — wymaga założenia konta na portalu SIC"
+          pt-BR: "Registre uma reclamação formal antitruste (Prácticas Comerciales Restrictivas) na [Superintendência de Indústria e Comércio (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) — requer criação de conta no portal da SIC"
+          zh-CN: "向[工商业监管局 (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) 提交正式反垄断投诉——需要在 SIC 门户网站上创建账户"
+          zh-TW: "向[工商業監理局 (SIC)](https://servicioslinea.sic.gov.co/servilinea/compedesleal/index#) 提交正式反壟斷投訴——需要在 SIC 入口網站上建立帳戶"
   - id: peru
     name:
       ar: "بيرو"

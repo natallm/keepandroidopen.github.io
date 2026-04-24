@@ -46,10 +46,10 @@ site_problems_header: "Problemas"
 site_report_issues: "Informar de un problema en el sitio web"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
-  "**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos."
+  **Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos.
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
-  "**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios."
+  **Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Derechos de autor:** Ninguno. Esta obra está bajo la licencia."
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"

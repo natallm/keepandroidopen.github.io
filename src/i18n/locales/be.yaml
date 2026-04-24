@@ -45,7 +45,7 @@ site_problems_header: "Праблемы"
 site_report_issues: "Паведаміць пра праблемы сайта"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
-  "**Заўвага:** Гэты сайт кіруецца супольнасцю. Ён створаны выключна ў інфармацыйных і навучальных мэтах."
+  **Заўвага:** Гэты сайт кіруецца супольнасцю. Ён створаны выключна ў інфармацыйных і навучальных мэтах.
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: "**Прыватнасць:** Гэты сайт не выкарыстоўвае кукі і не адсочвае карыстальнікаў ці аўтарызацыю."
 # [en] site_copyright: "**Copyright:** None. This work is marked"

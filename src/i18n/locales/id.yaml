@@ -210,7 +210,7 @@ act_dev_warn: >-
   Tambahkan [pustaka FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) ke aplikasi Anda untuk memperingatkan pengguna.
 # [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
 act_dev_banner: >-
-  "Mengelola situs web? [Tambahkan spanduk hitung mundur.](/banner)"
+  Mengelola situs web? [Tambahkan spanduk hitung mundur.](/banner)
 # [en] act_google_heading: "Google employees"
 act_google_heading: "Karyawan Google"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
