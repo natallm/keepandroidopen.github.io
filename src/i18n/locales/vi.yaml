@@ -118,9 +118,20 @@ flow_step6: "Chờ 24 tiếng **(một ngày!)**"
 # precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
 
 # Objections
-# objections_heading: "But wait, isn't this..."
-# obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
+# [en] objections_heading: "But wait, isn't this..."
+objections_heading: "Đợi chút, đây là..."
+# [en] obj_security_q: "\"...just about security?\""
+obj_security_q: "\"vấn đề liên quan đến bảo mật?\""
+# [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
+obj_security_a: >-
+  Lý do vì bảo mật chỉ là một màn khói che giấu sự thật.
+  Google Play Protect đã có khả năng giữ bảo mật bằng cách quét phần mềm độc hại mà không cần biết danh tính của nhà phát triển.
+  Yêu cầu giấy tờ tùy thân do chính phủ cấp không làm mã nguồn an toàn hơn.
+  Nó giúp xác định và kiểm soát các *nhà phát triển*.
+  Những người tạo ra phần mềm độc hại có thể đăng ký. Các nhà phát triển phần mềm độc lập thường không thể.
+  [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) tuyên bố: việc kiểm soát truy cập dựa trên danh tính là một công cụ kiểm duyệt, chứ không phải là một công cụ bảo mật.
+  
+
 # obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
 # obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 # obj_hide_q: "\"...only a problem if you have something to hide?\""
@@ -160,10 +171,14 @@ voices_community: "Nhà phát triển & cộng đồng"
 # voices_more: "All references, editorials, press coverage, and videos"
 
 # Signatories section
-# signatories_heading: "All those opposed…"
-signatories_count: "{count} tổ chức ở {countries} quốc gia đã ký những"
-signatories_open_letter_link: "thư ngỏ"
-# signatories_more: "Read the full open letter and thank the signatories"
+# [en] signatories_heading: "All those opposed…"
+signatories_heading: "Những tổ chức đã phản đối" # có thể không chuẩn lắm
+# [en] signatories_count: "{count} organizations from {countries} countries have signed the"
+signatories_count: "{count} tổ chức ở {countries} quốc gia đã ký"
+# [en] signatories_open_letter_link: "open letter"
+signatories_open_letter_link: "THƯ NGỎ"
+# [en] signatories_more: "Read the full open letter and thank the signatories"
+signatories_more: "Đọc thư ngỏ"
 
 # CTA banners
 # cta_action_label: "Take Action"
@@ -175,7 +190,8 @@ signatories_open_letter_link: "thư ngỏ"
 closing_line1: "Bạn đã mua điện thoại."
 closing_line2: "Bạn nên được quyết định ứng dụng nào được phép chạy trong những ứng dụng trên điện thoại của bạn."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
+# [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
+closing_cta: "Báo cáo cho mọi người biết."
 closing_share_heading: "Hãy lan truyền thông tin, báo cho những bạn và gia đình biết!"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
