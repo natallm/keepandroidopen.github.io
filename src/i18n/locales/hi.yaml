@@ -30,7 +30,6 @@
 
 # Active translations for this locale:
 
-
 # [en] contact_header: "Contact"
 contact_header: "संपर्क"
 # [en] contact_email: "Email"
@@ -246,7 +245,7 @@ act_petition: >-
   **इस [change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/) पर हस्ताक्षर करें**
   और उन 100,000 से अधिक हस्ताक्षरकर्ताओं का साथ दें जिन्होंने अपनी आवाज़ उठाई है।
 # [en] act_letter: "**[Read and share our open letter](/open-letter)**"
-act_letter: '**[हमारे खुले पत्र को पढ़ें तथा शेयर करें](/open-letter)**'
+act_letter: "**[हमारे खुले पत्र को पढ़ें तथा शेयर करें](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
   **गूगल को बताएं कि आप क्या सोचते हैं**, उनके ही
@@ -269,9 +268,9 @@ act_dev_warn: >-
   इस [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)
   को अपने users को सावधान करने के लिए अपने ऐप्प में जोड़ें।
 # [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-act_dev_banner: 'अगर आप एक वेबसाइट चलाते हैं तो इस [countdown banner](/banner) को अवश्य जोड़ें।'
+act_dev_banner: "अगर आप एक वेबसाइट चलाते हैं तो इस [countdown banner](/banner) को अवश्य जोड़ें।"
 # [en] act_google_heading: "Google employees"
-act_google_heading: "Google employees"
+act_google_heading: "गूगल कर्मचारियों के लिए"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 act_google_text: >-
   अगर आप इस प्रोग्राम के तकनीकी कार्यान्वयन (technical implementation) या इसके आंतरिक तर्क (internal rationale) के बारे में कुछ जानते हैं,
@@ -337,25 +336,25 @@ footer_help_translate: "अनुवाद करने में सहाय�
 # Fight back
 
 # Voices section
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_press: "टेक प्रेस"
+voices_editorials: "संपादकीय तथा विश्लेषणकर्ता"
+voices_orgs: "संस्थान एवं खुले पत्र"
+voices_creators: "यूट्यूबर और क्रिएटर "
+voices_community: "डेवेलपर्स एवं कम्युनिटी"
+voices_petition: "याचिकाकर्ताओं की आवाज़ सुनें"
+voices_more: "सभी संदर्भ, संपादकीय, प्रेस कवरेज और वीडियो"
 
 # Signatories section
-# signatories_heading: "All those opposed…"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "वे सभी जिन्होंने इसका विरोध किया है..... "
+signatories_count: "{countries} देशों के {count} संस्थाओं ने हस्ताक्षर किया है"
+signatories_open_letter_link: "खुला पत्र"
+signatories_more: "पूरा खुला पत्र पढ़ें और हस्ताक्षरकर्ताओं का धन्यवाद करें"
 
 # CTA banners
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
+cta_action_desc: "संसाधनों की सूची, हर देश के लिंक, रेगुलेटर्स से संपर्क करने और जवाब देने के उपाय"
 
 # Closing
-# closing_share_heading: "Spread the word"
+closing_share_heading: "प्रचार करें"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -410,14 +409,14 @@ footer_help_translate: "अनुवाद करने में सहाय�
 # social_callout_facebook_10: "From students building their first apps to volunteers creating privacy tools, Google's mandatory registration policy will freeze out innovation. Help us keep Android open! {url}"
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
+spread_label_x: "X पर पोस्ट करें"
+spread_label_mastodon: "Mastodon पर पोस्ट करें"
+spread_label_bluesky: "Bluesky पर पोस्ट करें"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "Facebook"
 
 # Footer
-# footer_take_action: "Take action & resources"
-# footer_languages: "English (+ 30 languages)"
+footer_take_action: "कदम उठाएँ तथा संसाधन"
+footer_languages: "English (+ 30 भाषाएँ)"
 
 # Shared site strings (also used by CTA/footer on other pages)

@@ -124,10 +124,10 @@ flow_step6: "**২৪ ঘণ্টা অপেক্ষা করুন**"
 flow_step7: "আবার ফিরে এসে আরও ভয়ংকর সব স্ক্রিন বাতিল করুন"
 # [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 flow_step8: >-
-    "অস্থায়ীভাবে অনুমতি দিন" (৭ দিন) অথবা "স্থায়ীভাবে অনুমতি দিন" অপশনটি বেছে নিন"
+    অস্থায়ীভাবে অনুমতি দিন" (৭ দিন) অথবা "স্থায়ীভাবে অনুমতি দিন" অপশনটি বেছে নিন
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: >-
-    "আপনি যে "ঝুঁকি" বুঝতে পারছেন তা আবারও নিশ্চিত করুন"
+    আপনি যে "ঝুঁকি" বুঝতে পারছেন তা আবারও নিশ্চিত করুন
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: "নয়টি ধাপ। বাধ্যতামূলক ২৪ ঘণ্টার ওয়েটিং পিরিয়ড। *শুধুমাত্র আপনার নিজের ডিভাইসে সফটওয়্যার ইন্সটল করার জন্য।*"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."

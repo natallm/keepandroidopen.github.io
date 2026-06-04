@@ -87,7 +87,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
 
       <p class="share-heading" set:html={t.closing_share_heading} />
-      <ShareRow t={t} />
+      <ShareRow t={t} locale={locale} />
     </section>
 
     <!-- What's happening -->
@@ -304,7 +304,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       <p class="closing-lede"><Fragment set:html={t.closing_line1} /><br><Fragment set:html={t.closing_line2} /></p>
       <p set:html={t.closing_detail} />
       <p class="closing-cta"><strong><Fragment set:html={t.closing_cta} /></strong></p>
-      <ShareRow t={t} />
+      <ShareRow t={t} locale={locale} />
     </section>
   </main>
 
@@ -338,12 +338,6 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
             <li><a href="mailto:info@keepandroidopen.org">info@keepandroidopen.org</a></li>
             <li><a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a></li>
             <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank"><Fragment set:html={t.footer_report_issues} /></a></li>
-          </ul>
-        </div>
-        <div id="translations" class="footer-col">
-          <h4 set:html={t.footer_translations} />
-          <ul>
-            <li><a href={ctaPath}><Fragment set:html={t.footer_languages} /></a></li>
             <li><a href={translateUrl} target="_blank"><Fragment set:html={t.footer_help_translate} />{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`}</a></li>
           </ul>
         </div>

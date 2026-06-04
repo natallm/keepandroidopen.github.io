@@ -206,6 +206,7 @@
       line-height: 1.15;
       max-width: 700px;
       margin: 0 auto 1.5rem;
+      padding-bottom: 0.2em;
       letter-spacing: -0.02em;
       background: linear-gradient(135deg, #d32f2f 0%, #ff6659 100%);
       -webkit-background-clip: text;
@@ -276,6 +277,10 @@
       text-transform: uppercase;
       letter-spacing: 0.12em;
       opacity: 0.9;
+
+      [lang^="fa"] & {
+        letter-spacing: unset;
+      }
     }
 
     /* ===== SCROLL CUE ===== */
@@ -327,6 +332,10 @@
       border-image: linear-gradient(90deg, #d32f2f, transparent) 1;
       padding-bottom: 0.5rem;
       margin-bottom: 1.25rem;
+
+      [dir="rtl"] & {
+        border-image: linear-gradient(-90deg, #d32f2f, transparent) 1;
+      }
     }
 
     section h3 {
@@ -433,6 +442,11 @@
     [data-theme="dark"] .callout-trapdoor em,
     [data-theme="dark"] .callout-trapdoor i {
       color: #ffab91;
+
+      [dir="rtl"] & {
+        font-style: oblique -14deg;
+      }
+      
     }
 
     [data-theme="dark"] .callout-trapdoor strong {
@@ -461,6 +475,11 @@
       margin-bottom: 0.35rem;
       border-radius: 0.35rem;
       transition: background 0.15s;
+
+      [dir="rtl"] & {
+        padding: 0.5rem 3rem 0.5rem 0.75rem;
+        text-align: right;
+      }
     }
 
     .scare-steps li::before {
@@ -478,6 +497,15 @@
       justify-content: center;
       font-weight: 800;
       font-size: 0.85rem;
+    }
+
+    [lang^="fa"] .scare-steps li::before {
+      content: counter(scare, persian);
+    }
+
+    [dir="rtl"] .scare-steps li::before {
+      left: auto;
+      right: 0.5rem;
     }
 
     [data-theme="dark"] .scare-steps li::before {
@@ -566,6 +594,11 @@
       border-radius: 0.75rem;
       background: rgba(52, 152, 219, 0.04);
       border-left: 3px solid #3498db;
+
+      [dir="rtl"] & {
+        border-right: 3px solid #3498db;
+        border-left: unset;
+      }
     }
 
     [data-theme="dark"] .action-section .action-block {
@@ -712,12 +745,12 @@
     }
 
     .ticker-card p {
-      margin: 0 0 0.5rem;
+      margin: 0 0 0.25rem;
       font-style: italic;
       font-weight: 500;
-      line-height: 1.4;
+      line-height: 1.2;
       display: -webkit-box;
-      -webkit-line-clamp: 6;
+      -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
@@ -937,11 +970,19 @@
       transition: transform 0.2s, opacity 0.2s;
       min-width: 1.5rem;
       text-align: right;
+
+      [dir="rtl"] & {
+        transform: scaleX(-1);
+      }
     }
 
     .cta-banner-link:hover .cta-banner-arrow {
       transform: translateX(4px);
       opacity: 1;
+
+      [dir="rtl"] & {
+        transform: scaleX(-1);
+      }
     }
 
     @media (max-width: 600px) {
@@ -1216,4 +1257,8 @@
 
     .footer-legal p {
       margin: 0.25rem 0;
+    }
+
+    [dir="rtl"] em, [dir="rtl"] i {
+        font-style: oblique -14deg;
     }

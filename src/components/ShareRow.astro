@@ -7,10 +7,13 @@
  */
 interface Props {
   t: Record<string, string>;
+  locale?: string;
 }
 
-const { t } = Astro.props;
-const siteUrl = 'https://keepandroidopen.org';
+const { t, locale = 'en' } = Astro.props;
+const siteUrl = locale === 'en'
+  ? 'https://keepandroidopen.org'
+  : `https://keepandroidopen.org/${locale}/`;
 
 // Helper to get all variants for a prefix
 function getVariants(prefix: string): string[] {

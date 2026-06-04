@@ -1,7 +1,6 @@
 ---
 import { languages, isRtl } from '../i18n/config';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import { glob } from 'node:fs/promises';
 
 interface Props {
   title: string;
@@ -16,15 +15,6 @@ const {
 } = Astro.props;
 
 const dir = isRtl(lang) ? "rtl" : "ltr";
-
-// Pick a random lockdown image at build time for social media previews
-const lockdownImages: string[] = [];
-for await (const entry of glob('public/img/lockdowns/*.{png,jpg,jpeg,webp}')) {
-  lockdownImages.push(entry.replace(/^public/, ''));
-}
-const ogImage = lockdownImages.length > 0
-  ? `https://keepandroidopen.org${lockdownImages[Math.floor(Math.random() * lockdownImages.length)]}`
-  : 'https://keepandroidopen.org/img/keepandroidopen.png';
 ---
 <!DOCTYPE html>
 <html lang={lang} dir={dir}>
@@ -33,16 +23,11 @@ const ogImage = lockdownImages.length > 0
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <meta name="description" content={description}>
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
-  <meta property="og:image" content={ogImage}>
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content={title}>
-  <meta name="twitter:image" content={ogImage}>
   <link rel="me" href="https://techhub.social/@keepandroidopen">
   <link rel="stylesheet" href="/css/pico.min.css">
 
