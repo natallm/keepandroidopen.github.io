@@ -66,31 +66,47 @@ open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh Nhà
 # Meta
 
 # Hero
+# [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Vận động để Android vẫn là một nền tảng tự do và mở cho mọi người xây dựng ứng dụng."
+# [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "ngày"
+# [en] hero_sub: Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID.
 hero_sub: >-
   Bắt đầu tháng 9 năm 2026, một cập nhật âm thầm, được Google triển khai mà không có sự đồng ý của người dùng, sẽ **chặn những ứng dụng Android** mà nhà phát triển chưa đang ký với Google, chưa ký hợp đồng, chưa thanh toán và chưa cung cấp giấy tờ tùy thân do chính phủ cấp.
+# [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Mỗi ứng dụng và mỗi thiết bị, trên toàn thế giới, với không có tùy chọn từ chối."
 
 # What Google is doing
+# [en] what_heading: "What Google is doing"
 what_heading: "Google đang làm gì?"
 # what_intro: "In August 2025, Google [announced] (https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
+# [en] what_req_appids: "Listing all current and all future application identifiers"
+# [en] what_registration: "Registration requires:"
 what_registration: "Việc phải làm trong quá trình đăng ký là:"
+# [en] what_req_fee: "Paying a fee to Google"
 what_req_fee: "Phải trả thu phí cho Google"
+# [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
 what_req_terms: "Phải đồng ý điều khoản và điều kiện của Google"
+# [en] what_req_id: "Surrendering your government-issued identification"
 what_req_id: "Phải cung cấp giấy tờ tùy thân"
+# [en] what_req_signing: "Providing evidence of your private signing key"
 what_req_signing: "Phải cung cấp bằng chứng về khóa ký riêng của bạn"
 # what_req_appids: "Listing all current and all future application identifiers"
+# [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: "Nếu nhà phát triển không tuân thủ những điều đó, mọi ứng dụng của nhà phát triển đó sẽ bị chặn âm thầm trong mỗi thiết bị Android trên thế giới."
 
 # Who this hurts
+# [en] impact_heading: "Who this hurts"
 impact_heading: "Những người bị ảnh hưởng"
+# [en] impact_you_heading: "You"
 impact_you_heading: "Bạn"
 # impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 # impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
+# [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "Nhà phát triển độc lập"
 # impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 # impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
+# [en] impact_gov_heading: "Governments & civil society"
 impact_gov_heading: "Những chính quyền & xã hội dân sự"
 # impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
 # impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
@@ -148,6 +164,7 @@ obj_security_a: >-
 
 # Fight back
 # act_heading: "Hãy phản công"
+# [en] act_everyone_heading: "Everyone"
 act_everyone_heading: "Mọi người"
 # act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
 # act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
@@ -156,6 +173,7 @@ act_everyone_heading: "Mọi người"
 # act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
 # act_letter: "**[Read and share our open letter](/open-letter)**"
 # act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
+# [en] act_dev_heading: "Developers"
 act_dev_heading: "Nhà phát triển"
 # act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
 # act_dev_resist: "Google's plan only works if developers comply. Don't."
