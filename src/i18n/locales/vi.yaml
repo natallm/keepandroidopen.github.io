@@ -130,6 +130,10 @@ flow_step6: "**Chờ 24 tiếng**"
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
+flow_detail: >
+  Quá trình này hoàn toàn chạy qua **Dịch vụ Google Play**, không cần qua hệ điều hành Android. 
+  Google có thể thay đổi quá trình này, siết chặt nó, hoặc loại bỏ quá trình ở bất kỳ thời gian, không cần thiết cập nhật hệ điều hành và không cần sự đồng ý. 
+  Và kể từ ngày nay, quá trình chưa có xuất hiện ở những bản dựng beta, premium hay canary. Hiện nay nó chỉ được nhắc tới trong trang blog của Google.
 
 # Precedent
 # precedent_heading: "This is bigger than Android"
