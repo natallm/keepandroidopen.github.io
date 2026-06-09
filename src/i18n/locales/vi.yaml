@@ -223,7 +223,7 @@ cta_action_desc: "Danh sách đầy đủ các nguồn tài liệu, thông tinh 
 # [en] cta_letter_label: "Open Letter"
 cta_letter_label: "Thư ngỏ"
 # [en] cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
-cta_letter_desc: "Xem thư ngỏ được tổ chức ký phản đối việc nhà phát triển phải xác minh giấy tờ tùy thân"
+cta_letter_desc: "Đọc thư ngỏ được tổ chức ký phản đối việc nhà phát triển phải xác minh giấy tờ tùy thân"
 
 # Closing
 # [en] closing_line1: "You bought your phone."
